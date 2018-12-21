@@ -3,7 +3,7 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "QRCode",
-	"Description": "GVoiceSDK UE Plugin",
+	"Description": "QRCode UE Plugin",
 	"Category": "Other",
 	"CreatedBy": "Xunx",
 	"CreatedByURL": "xunx.cc",
@@ -11,6 +11,7 @@
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
+	"EnabledByDefault": false,
 	"IsBetaVersion": false,
 	"Installed": false,
 	"Modules": [
