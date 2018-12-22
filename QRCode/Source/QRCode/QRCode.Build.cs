@@ -63,7 +63,7 @@ public class QRCode : ModuleRules
             PublicIncludePaths.Add(Path.Combine(QRCodeInlucdePath));
             PublicAdditionalLibraries.Add(Path.Combine(QRCodeLibPath, OSVersion, "qrencode.lib"));
         }
-        PublicDefinitions.Add(string.Format("WITH_YJ_MAGIC_LIB_BINDING={0}", 1));
+        PublicDefinitions.Add(string.Format("WITH_QRCODE_LIB_BINDING={0}", 1));
     }
 
 
